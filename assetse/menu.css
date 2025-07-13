@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: "Heebo", sans-serif;
+box-sizing: border-box;
+
+
+}
+/* <!--******************* start navbar ********************** --> */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin :auto;
+    align-items: center;
+    background-color: #232736;
+    padding-right: 20px;
+    height: 70px;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    }
+    ul li a:hover{
+        color: rgb(236, 135, 3);
+    
+    }
+    .table-booking button{
+      width: 140px;
+      height: 40px;
+      color: white;
+      background-color: orange;
+      border-style: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .table-booking button:hover{
+      background-color: rgb(112, 76, 8);
+    }
+    
+
+    
+    /*<!--*****************************   end nav bar ********************* -->*/
+
+    /* <!--********************** star hero section ************************--> */
+   
+    .hero {
+        background-size: cover;
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px;
+        height: 300px;
+        background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../assetse/media/bg-hero.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .hero h1 {
+        color: white;
+        text-align: center;
+        margin: 0; /* لضمان التوسيط المثالي */
+    }
+    #about {
+        font-family: "Allura";
+        color: orange;
+        margin: 0 0 8px;
+        font-size: 70px;
+    }
+    #home,
+    #A {
+        margin: 0 5px;
+        font-size: 20px;
+        color:white;
+        text-align: center;
+        align-items: center;
+        
+    }
+    #home{
+        text-decoration: none;
+    }
+/* <!-- ************************* end hero section ***************************--> */
+     
+
+/*  *************  Start Food Menu ************ */
+
+.foodMenu{
+    font-family: "Permanent Marker", cursive;
+   font-size: larger;
+    color: orange;
+    font-weight: bolder;
+    text-align: center;
+    
+  }
+  .section-title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+  }
+  
+  .menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 6%;
+  }
+  .menu-column{
+    width: 31%;
+  }
+  .menu-column h4{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+  padding-bottom:10px ;
+  }
+  .menu-column h4::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    bottom: 0;
+  }
+  .single-menu{
+    display: flex;
+    align-items: center;
+    margin-top:40px ;
+  }
+  .single-menu img{
+    border-radius: 50%;
+    max-width: 110px;
+    border: 1px dashed orange;
+    padding: 3px;
+    margin-right: 15px;
+  }
+  
+  .single-menu .menue-content h5{
+  text-transform:capitalize ;
+  font-size: 22px;
+  font-weight: 500px;
+  border-bottom: 1px dashed rgb(228, 150, 5);
+  padding-bottom:5px ;
+  margin-bottom: 10px;
+  }
+  .single-menu .menue-content h5 span{
+    color: rgb(223, 147, 5);
+    float: right;
+    font-weight: 600px;
+    font-style: italic;
+  }
+  
+  /*  *************  End Food Menu ************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************  start footer ********************* */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin :auto;
+    align-items: center;
+    background-color: #232736;
+    
+    
+    }
+    .logo img{
+        width: 60px;
+    }
+  
+    ul li i{
+    margin: 0 20px;
+    color: orange;
+    }
+    ul li :hover{
+        color: rgb(245, 242, 237);
+    
+    }
+    footer i{
+     padding: 10px;
+     font-size: 30px;
+     color: orange;
+    }
+    .copy{
+      color: orange;
+      font-weight: bold;
+      text-align: center;
+
+    }
+
+  /* ******************  End footer ********************* */

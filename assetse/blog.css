@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: "Heebo", sans-serif;
+box-sizing: border-box;
+}
+/* <!--******************* start navbar ********************** --> */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin :auto;
+    align-items: center;
+    background-color: #232736;
+    padding-right: 20px;
+    height: 70px;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    }
+    ul li a:hover{
+        color: rgb(236, 135, 3);
+    
+    }
+    .table-booking button{
+      width: 140px;
+      height: 40px;
+      color: white;
+      background-color: orange;
+      border-style: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .table-booking button:hover{
+      background-color: rgb(112, 76, 8);
+    }
+    
+
+    
+    /*<!--*****************************   end nav bar ********************* -->*/
+
+    /* <!--********************** star hero section ************************--> */
+   
+    .hero {
+        background-size: cover;
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px;
+        height: 300px;
+        background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../assetse/media/bg-hero.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .hero h1 {
+        color: white;
+        text-align: center;
+        margin: 0; /* لضمان التوسيط المثالي */
+    }
+    #about {
+        font-family: "Allura";
+        color: orange;
+        margin: 0 0 8px;
+        font-size: 70px;
+    }
+    #home,
+    #A {
+        margin: 0 5px;
+        font-size: 20px;
+        color:white;
+        text-align: center;
+        align-items: center;
+        
+    }
+    #home{
+        text-decoration: none;
+    }
+/* <!-- ************************* end hero section ***************************--> */
+
+
+/* <!-- Start Content section --> */
+.contanier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* توزيع العناصر أفقياً مع وجود مسافات متساوية */
+  }
+
+    /* $$$$ Start Section One  $$$$*/
+
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh; 
+        padding: 15px;
+        font-size: 15px;
+        width: 20%;
+      }
+.information1 p,
+.information2 p {
+  line-height: 2; /* تضاعف المسافة بين الأسطر */
+}
+
+      
+    /* $$$$ End Section One  $$$$*/
+
+  
+  /* .section-one,
+  .section-three {
+    background-color: yellowgreen;
+  } */
+  
+  /* $$$$ Start Section Two  $$$$*/
+  .section-two {
+    width: 40%;
+  }
+.image img{
+    width: 100%;
+    height: 240px;
+}
+.content{
+    padding: 10px;
+}
+.content h3{
+    padding-bottom:15px;
+}
+.content p{
+    padding-bottom: 15px;
+}
+.content button{
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 6px;
+}
+.content button:hover{
+    background-color: rgb(170, 120, 13);
+}
+
+  /* $$$$ End Section Two  $$$$*/
+
+  /* $$$$ Start Section three $$$$*/
+  .section-three{
+    width: 30%;
+  }
+
+  #search{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid gray;
+    padding: 6px;
+  }
+.category {
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .category h4{
+    padding-bottom: 10px;
+  }
+ 
+  
+  ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .text h4{
+     padding-bottom:10px ;
+  }
+
+  /* $$$$ End Section three $$$$*/
+
+
+
+
+
+/* <!-- End Content section --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************  start footer ********************* */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin :auto;
+    align-items: center;
+    background-color: #232736;
+    
+    
+    }
+    .logo img{
+        width: 60px;
+    }
+  
+    ul li i{
+    margin: 0 20px;
+    color: orange;
+    }
+    ul li :hover{
+        color: rgb(245, 242, 237);
+    
+    }
+    footer i{
+     padding: 10px;
+     font-size: 30px;
+     color: orange;
+    }
+    .copy{
+      color: orange;
+      font-weight: bold;
+      text-align: center;
+
+    }
+
+  /* ******************  End footer ********************* */
